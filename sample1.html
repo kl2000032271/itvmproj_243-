@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event Management Company | Home</title>
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#" class="logo">Memorable Happening's</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<h1>Your Event, Our Management</h1>
+			<p>We specialize in event planning and management</p>
+			<a href="#" class="cta">Get Started</a>
+		</div>
+	</header>	   
+	<main>
+        <section id="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Event Planning</li>
+                    <li>Event Coordination</li>
+                    <li>Venue Selection</li>
+                    <li>Catering Services</li>
+                    <li>Audio-Visual Services</li>
+                    <li>Entertainment Booking</li>
+                </ul>
+            <a href="#" class="cta">Contact Us</a>
+        </section>  
+    
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Event Management Co. was founded in 2021 with the goal of providing exceptional event planning and management services to clients across the globe. Our team of experienced event planners and coordinators are passionate about creating memorable and successful events that exceed our clients' expectations.</p>
+            <!-- <img src="images/about.jpg" width = "100%"  alt=""> -->
+			<!-- <a href="#" class="cta">Learn More</a> -->
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Event Management Co. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        $('.slideshow').slick({
+            dots: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000
+        });
+    });
+</script>
